@@ -104,11 +104,39 @@ body {
 	margin-bottom: 16px;
 }
 
-/* Skills list */
-.skills-list {
-	list-style: square;
-	padding-left: 20px;
-	margin-top: 12px;
+/* Skills heading - centered */
+#skills h3 {
+	text-align: center;
+}
+
+/* Skills container - holds all skill items in a row */
+.skills-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 24px;
+	list-style: none;
+}
+
+/* Each individual skill item */
+.skill-item {
+	text-align: center;
+	margin: 16px;
+	width: 120px;
+}
+
+/* Skill icon image */
+.skill-icon {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 0 auto 8px auto;
+}
+
+/* Skill name text */
+.skill-item p {
+	font-weight: bold;
+	color: #222222;
 }
 
 /* Project cards */
