@@ -120,10 +120,11 @@ body {
 #bio {
 	background-color: rgba(255, 200, 150, 0.3);
 	padding: 32px 14px;
-	max-width: 800px;
-	margin: 0 auto;
+	max-width: 100% !important;
+	width: 100%;
+	margin: 0 !important;
 	text-align: center;
-	border-radius: 8px;
+	border-radius: 0;
 }
 
 /* Bio paragraph - justified text for paragraph style */
@@ -144,7 +145,10 @@ body {
 #skills {
 	background-color: rgba(245, 245, 245, 0.2);
 	padding: 32px 16px;
-	border-radius: 8px;
+	max-width: 100% !important;
+	width: 100%;
+	margin: 0 !important;
+	border-radius: 0;
 }
 
 #skills h3 {
@@ -182,6 +186,46 @@ body {
 	color: #ffffff;
 }
 
+/* Video Games heading - centered */
+#games h3 {
+	text-align: center;
+	font-size: 24px;
+}
+
+/* Games container - holds all game items in a row */
+.games-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 24px;
+	list-style: none;
+}
+
+/* Each individual game item */
+.game-item {
+	text-align: center;
+	margin: 16px;
+	width: 120px;
+}
+
+/* Game icon image */
+.game-icon {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 0 auto 8px auto;
+	border-radius: 50%;
+	border: 3px solid #ffffff;
+	object-fit: cover;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Game name text */
+.game-item p {
+	font-weight: bold;
+	color: #ffffff;
+}
+
 /* Project cards */
 .project-card {
 	background-color: #ffffff;
@@ -198,4 +242,5 @@ body {
 	background-color: #ffffff;
 	border-top: 1px solid #dddddd;
 	margin-top: 24px;
+	color: #000000;
 }
