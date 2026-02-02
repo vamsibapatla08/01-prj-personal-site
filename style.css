@@ -227,6 +227,12 @@ body {
 	font-size: 16px;
 }
 
+/* Chess icon - remove circular style */
+.chess-icon {
+	border-radius: 0;
+	border: none;
+}
+
 /* Project cards */
 .project-card {
 	background-color: #ffffff;
