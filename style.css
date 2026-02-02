@@ -58,12 +58,12 @@ body {
 
 /* Hero image */
 .hero-image {
-	max-width: 400px;
+	max-width: 270px;
 	width: 100%;
 	height: auto;
 	display: block;
-	margin: -25px auto 16px auto;
-	border-radius: 40%;
+	margin: -25px auto 40px auto;
+	border-radius: 50%;
 	border: 4px solid #ffffff;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -91,12 +91,20 @@ body {
 	margin: 0 auto;
 }
 
-/* Bio section (bigger with light green background) */
+/* Bio section */
 #bio {
-	background-color: #d9f7d6;
 	padding: 32px 14px;
-	max-width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
 	text-align: center;
+}
+
+/* Bio paragraph - justified text for paragraph style */
+#bio p {
+	text-align: justify;
+	max-width: 700px;
+	margin: 0 auto;
+	line-height: 1.8;
 }
 
 /* Extra space below the About Me heading */
