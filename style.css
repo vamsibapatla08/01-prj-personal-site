@@ -24,7 +24,7 @@ body {
 	background-repeat: repeat;
 	color: #ffffff;
 	line-height: 1.6;
-	animation: twinkle 3s infinite;
+	/* animation: twinkle 3s infinite; */
 }
 
 /* Twinkling animation for stars */
