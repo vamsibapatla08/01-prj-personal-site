@@ -205,13 +205,13 @@ body {
 .game-item {
 	text-align: center;
 	margin: 16px;
-	width: 120px;
+	width: 140px;
 }
 
 /* Game icon image */
 .game-icon {
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
 	display: block;
 	margin: 0 auto 8px auto;
 	border-radius: 50%;
@@ -224,6 +224,7 @@ body {
 .game-item p {
 	font-weight: bold;
 	color: #ffffff;
+	font-size: 16px;
 }
 
 /* Project cards */
