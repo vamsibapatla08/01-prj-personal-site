@@ -8,9 +8,29 @@
 /* Page font and background */
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f7f7f7;
-	color: #222222;
+	background-color: #0a1128;
+	background-image: 
+		radial-gradient(2px 2px at 20px 30px, white, rgba(0,0,0,0)),
+		radial-gradient(2px 2px at 60px 70px, white, rgba(0,0,0,0)),
+		radial-gradient(1px 1px at 50px 50px, white, rgba(0,0,0,0)),
+		radial-gradient(1px 1px at 130px 80px, white, rgba(0,0,0,0)),
+		radial-gradient(2px 2px at 90px 10px, white, rgba(0,0,0,0)),
+		radial-gradient(1px 1px at 150px 60px, white, rgba(0,0,0,0)),
+		radial-gradient(1px 1px at 200px 20px, white, rgba(0,0,0,0)),
+		radial-gradient(2px 2px at 170px 100px, white, rgba(0,0,0,0)),
+		radial-gradient(1px 1px at 30px 90px, white, rgba(0,0,0,0)),
+		radial-gradient(1px 1px at 100px 30px, white, rgba(0,0,0,0));
+	background-size: 250px 120px;
+	background-repeat: repeat;
+	color: #ffffff;
 	line-height: 1.6;
+	animation: twinkle 3s infinite;
+}
+
+/* Twinkling animation for stars */
+@keyframes twinkle {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.8; }
 }
 
 /* Navigation bar */
@@ -47,7 +67,7 @@ body {
 
 /* Hero section */
 .hero {
-	background-color: #e8f1ff;
+	background-color: rgba(10, 30, 80, 0.4);
 	padding: 100px 16px 40px;
 	text-align: center;
 	min-height: 75vh;
@@ -144,7 +164,42 @@ body {
 /* Skill name text */
 .skill-item p {
 	font-weight: bold;
-	color: #222222;
+	color: #ffffff;
+}
+
+/* Hobbies heading - centered */
+#hobbies h3 {
+	text-align: center;
+}
+
+/* Hobbies container - holds all hobby items in a row */
+.hobbies-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 24px;
+	list-style: none;
+}
+
+/* Each individual hobby item */
+.hobby-item {
+	text-align: center;
+	margin: 16px;
+	width: 120px;
+}
+
+/* Hobby icon image */
+.hobby-icon {
+	width: 65px;
+	height: 65px;
+	display: block;
+	margin: 0 auto 8px auto;
+}
+
+/* Hobby name text */
+.hobby-item p {
+	font-weight: bold;
+	color: #ffffff;
 }
 
 /* Project cards */
