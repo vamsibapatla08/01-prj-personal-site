@@ -111,12 +111,19 @@ body {
 	margin: 0 auto;
 }
 
+/* Spacer - empty area between sections */
+.spacer {
+	height: 80px;
+}
+
 /* Bio section */
 #bio {
+	background-color: rgba(255, 200, 150, 0.3);
 	padding: 32px 14px;
 	max-width: 800px;
 	margin: 0 auto;
 	text-align: center;
+	border-radius: 8px;
 }
 
 /* Bio paragraph - justified text for paragraph style */
@@ -130,11 +137,19 @@ body {
 /* Extra space below the About Me heading */
 #bio h3 {
 	margin-bottom: 16px;
+	font-size: 24px;
 }
 
 /* Skills heading - centered */
+#skills {
+	background-color: rgba(245, 245, 245, 0.2);
+	padding: 32px 16px;
+	border-radius: 8px;
+}
+
 #skills h3 {
 	text-align: center;
+	font-size: 24px;
 }
 
 /* Skills container - holds all skill items in a row */
@@ -163,41 +178,6 @@ body {
 
 /* Skill name text */
 .skill-item p {
-	font-weight: bold;
-	color: #ffffff;
-}
-
-/* Hobbies heading - centered */
-#hobbies h3 {
-	text-align: center;
-}
-
-/* Hobbies container - holds all hobby items in a row */
-.hobbies-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 24px;
-	list-style: none;
-}
-
-/* Each individual hobby item */
-.hobby-item {
-	text-align: center;
-	margin: 16px;
-	width: 120px;
-}
-
-/* Hobby icon image */
-.hobby-icon {
-	width: 65px;
-	height: 65px;
-	display: block;
-	margin: 0 auto 8px auto;
-}
-
-/* Hobby name text */
-.hobby-item p {
 	font-weight: bold;
 	color: #ffffff;
 }
